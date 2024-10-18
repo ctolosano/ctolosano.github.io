@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4e4e4;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background-color: white;
+}
+
+.icon {
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 1rem 0;
+}
+
+.log-in {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+
+
+section {
+    background-color: white;
+    margin: 1rem;
+}
+
+.profile-avis-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-statut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avis h2 {
+    display: flex;
+    /* align-items: center; */
+    gap: 0.5rem;
+}
+
+h2 span {
+    font-weight: lighter;
+    font-size: 0.5em;
+    display: flex;
+    align-items: start;
+}
+
+.stars {
+    display: flex;
+}
